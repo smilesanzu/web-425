@@ -1,0 +1,14 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Full Name</th>
+            <th scope="col">Genre</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let composer of composers">
+            <td>{{ composer.fullName }}</td>
+            <td>{{ composer.genre }}</td>
+        </tr>
+    </tbody>
+</table>
